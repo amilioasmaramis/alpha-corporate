@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export default function Services() {
   return (
     // <!-- Start Service area -->
-    <div id="services" class="services-area area-padding m-5">
+    <div id="services" class="services-area area-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -20,7 +20,7 @@ export default function Services() {
         </div>
         <div className="d-flex justify-content-center text-center">
           <div className="d-flex justify-content-space-between" style={{ flexWrap: "wrap" }}>
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class="about-move">
                 <div class="services-details">
                   <div class="single-services">
@@ -36,7 +36,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class="about-move">
                 <div class="services-details">
                   <div class="single-services">
@@ -52,7 +52,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class=" about-move">
                 <div class="services-details">
                   <div class="single-services">
@@ -68,7 +68,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class=" about-move">
                 <div class="services-details">
                   <div class="single-services">
@@ -84,7 +84,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class=" about-move">
                 <div class="services-details">
                   <div class="single-services">
@@ -100,7 +100,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="col-md-3 col-sm-4 col-xs-12 m-5">
               <div class=" about-move">
                 <div class="services-details">
                   <div class="single-services">

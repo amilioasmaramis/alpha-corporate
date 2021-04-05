@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import Profile from '../components/Profile'
 import Services from '../components/Services'
 import Teams from '../components/Team'
+import Portofolio from '../components/Portofolio'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Profile />
       <Services />
       <Teams />
+      <Portofolio />
       <Footer />
       </div>
     </section>

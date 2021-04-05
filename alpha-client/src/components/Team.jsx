@@ -29,7 +29,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team1} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -40,12 +40,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -62,7 +62,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team2} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -73,12 +73,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -95,7 +95,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team3} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -106,12 +106,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -128,7 +128,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team4} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -139,12 +139,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -161,7 +161,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team1} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -172,12 +172,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -194,7 +194,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team2} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -205,12 +205,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -227,7 +227,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team3} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -238,12 +238,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -260,7 +260,7 @@ export default function Team() {
                 <div class="team-img d-flex justify-content-center">
                   <Link href="#">
                       <img src={Team4} style={{ width: "18rem", objectFit: "contain"}} alt="" />
-                    </Link>
+                  </Link>
                   <div class="team-social-icon text-center">
                     <ul>
                       <li>
@@ -271,12 +271,12 @@ export default function Team() {
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faTwitter} />
-                          </Link>
+                        </Link>
                       </li>
                       <li>
                         <Link href="#">
                           <FontAwesomeIcon icon={faInstagram} />
-                          </Link>
+                        </Link>
                       </li>
                     </ul>
                   </div>

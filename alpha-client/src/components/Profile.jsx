@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export default function Profile() {
   return (
     // <!-- Start About area -->
-    <div id="about" class="about-area area-padding mt-5 mb-5">
+    <div id="profile" class="about-area area-padding" style={{ padding: "70px 0px 80px"}}>
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
