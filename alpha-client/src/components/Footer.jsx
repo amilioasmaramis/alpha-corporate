@@ -12,190 +12,92 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    // <!-- Footer -->
-    <footer class="bg-dark text-center text-white">
-      {/* <!-- Grid container --> */}
-      <div class="container p-4">
-        {/* <!-- Section: Social media --> */}
-        <section class="mb-4">
-          {/* <!-- Facebook --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faFacebook} />
-          </Link>
-
-          {/* <!-- Twitter --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faTwitter} />
-          </Link>
-
-          {/* <!-- Google --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faGoogle} />
-          </Link>
-
-          {/* <!-- Instagram --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faInstagram} />
-          </Link>
-
-          {/* <!-- Linkedin --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </Link>
-
-          {/* <!-- Github --> */}
-          <Link class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-            <FontAwesomeIcon icon={faGithub} />
-          </Link>
-        </section>
-        {/* <!-- Section: Social media --> */}
-
-        {/* <!-- Section: Form --> */}
-        <section class="">
-          <form action="">
-            {/* <!--Grid row--> */}
-            <div class="row d-flex justify-content-center">
-              {/* <!--Grid column--> */}
-              <div class="col-auto">
-                <p class="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </div>
-              {/* <!--Grid column--> */}
-
-              {/* <!--Grid column--> */}
-              <div class="col-md-5 col-12">
-                {/* <!-- Email input --> */}
-                <div class="form-outline form-white mb-4">
-                  <input type="email" id="form5Example2" class="form-control" />
-                  <label class="form-label" for="form5Example2">Email address</label>
-                </div>
-              </div>
-              {/* <!--Grid column--> */}
-
-              {/* <!--Grid column--> */}
-              <div class="col-auto">
-                {/* <!-- Submit button --> */}
-                <button type="submit" class="btn btn-outline-light mb-4">
-                  Subscribe
-                </button>
-              </div>
-              {/* <!--Grid column--> */}
-            </div>
-            {/* <!--Grid row--> */}
-          </form>
-        </section>
-        {/* <!-- Section: Form --> */}
-
-        {/* <!-- Section: Text --> */}
-        <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-            eum harum corrupti dicta, aliquam sequi voluptate quas.
-          </p>
-        </section>
-        {/* <!-- Section: Text --> */}
-
-        {/* <!-- Section: Links --> */}
-        <section class="">
-          {/* <!--Grid row--> */}
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
           <div class="row">
-            {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
 
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <Link href="#!" class="text-white">Link 1</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 2</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 3</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 4</Link>
-                </li>
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>Alpha</h3>
+              <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+                <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
+                <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
+                <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
               </ul>
             </div>
-            {/* <!--Grid column--> */}
 
-            {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br/>
+                New York, NY 535022<br/>
+                United States <br/>
+                <strong>Phone:</strong> +1 5589 55488 55<br/>
+                <strong>Email:</strong> info@example.com<br/>
+              </p>
+              
+              <div class="social-links">
+                {/* <!-- Facebook --> */}
+                <Link class="facebook" href="#!">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </Link>
 
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <Link href="#!" class="text-white">Link 1</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 2</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 3</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 4</Link>
-                </li>
-              </ul>
+                {/* <!-- Twitter --> */}
+                <Link class="twitter" href="#!">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </Link>
+
+                {/* <!-- Google --> */}
+                <Link class="google-plus" href="#!">
+                  <FontAwesomeIcon icon={faGoogle} />
+                </Link>
+
+                {/* <!-- Instagram --> */}
+                <Link class="instagram" href="#!">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </Link>
+
+                {/* <!-- Linkedin --> */}
+                <Link class="linkedin" href="#!">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+
+                {/* <!-- Github --> */}
+                <Link class="github" href="#!">
+                  <FontAwesomeIcon icon={faGithub} />
+                </Link>
+              </div>
+
             </div>
-            {/* <!--Grid column--> */}
 
-            {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <Link href="#!" class="text-white">Link 1</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 2</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 3</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 4</Link>
-                </li>
-              </ul>
+            <div class="col-lg-3 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input type="submit"  value="Subscribe" />
+              </form>
             </div>
-            {/* <!--Grid column--> */}
 
-            {/* <!--Grid column--> */}
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <Link href="#!" class="text-white">Link 1</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 2</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 3</Link>
-                </li>
-                <li>
-                  <Link href="#!" class="text-white">Link 4</Link>
-                </li>
-              </ul>
-            </div>
-            {/* <!--Grid column--> */}
           </div>
-          {/* <!--Grid row--> */}
-        </section>
-        {/* <!-- Section: Links --> */}
+        </div>
       </div>
-      {/* <!-- Grid container --> */}
 
-      {/* <!-- Copyright --> */}
-      <div class="text-center p-3">
-        © 2020 Copyright: <Link class="text-white" href="https://mdbootstrap.com/">Companyby.Alpha</Link>
+      <div class="container">
+        <div class="copyright">
+          &copy; 2021 Copyright : <strong>Companyby.Alpha</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">Razormangs</a>
+        </div>
       </div>
-      {/* <!-- Copyright --> */}
     </footer>
+
   )
 }

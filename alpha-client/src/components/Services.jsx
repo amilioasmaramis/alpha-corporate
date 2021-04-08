@@ -1,15 +1,18 @@
 import React from 'react'
 
-import { faCameraRetro, faChartBar, faCode, faTicketAlt } from '@fortawesome/free-solid-svg-icons'
+import { faCameraRetro, faChartBar, faCode, faInfinity, faTicketAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWordpress } from '@fortawesome/free-brands-svg-icons'
+import { faAngrycreative, faWordpress } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
+import ProfileImg from './img/about/craft.PNG'; // with import
+import alpha1 from './img/services/alpha1.jpeg'; // with import
+import alpha2 from './img/services/alpha2.JPG'; // with import
 
 
 export default function Services() {
   return (
     // <!-- Start Service area -->
-    <div id="services" class="services-area area-padding">
+    <div id="services" class="services-area">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -25,9 +28,10 @@ export default function Services() {
                 <div class="services-details">
                   <div class="single-services">
                     <Link class="services-icon" href="#">
-                      <FontAwesomeIcon icon={faCode} />
+                      <FontAwesomeIcon icon={faAngrycreative} />
+                      {/* <img src={ProfileImg} alt="" style={{ width: 100, height: 100 }} /> */}
                     </Link>
-                    <h4>Expert Coder</h4>
+                    <h4>Creative & Branding</h4>
                     <p>
                       will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                     </p>
@@ -42,8 +46,9 @@ export default function Services() {
                   <div class="single-services">
                     <Link class="services-icon" href="#">
                       <FontAwesomeIcon icon={faCameraRetro} />
+                      {/* <img src={alpha1} alt="" style={{ width: 100, height: 100 }} /> */}
                     </Link>
-                    <h4>Creative Designer</h4>
+                    <h4>Graphic Design & Logo</h4>
                     <p>
                       will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                     </p>
@@ -57,9 +62,10 @@ export default function Services() {
                 <div class="services-details">
                   <div class="single-services">
                     <Link class="services-icon" href="#">
-                      <FontAwesomeIcon icon={faWordpress} />
+                      <FontAwesomeIcon icon={faInfinity} />
+                      {/* <img src={alpha2} alt="" style={{ width: 100, height: 100 }} /> */}
                     </Link>
-                    <h4>Wordpress Developer</h4>
+                    <h4>Ilustration</h4>
                     <p>
                       will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                     </p>
@@ -75,7 +81,7 @@ export default function Services() {
                     <Link class="services-icon" href="#">
                       <FontAwesomeIcon icon={faCameraRetro} />
                     </Link>
-                    <h4>Social Marketer </h4>
+                    <h4>Technology Information</h4>
                     <p>
                       will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.
                     </p>
@@ -115,6 +121,7 @@ export default function Services() {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

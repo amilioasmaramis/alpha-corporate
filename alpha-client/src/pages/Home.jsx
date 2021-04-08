@@ -6,19 +6,19 @@ import Profile from '../components/Profile'
 import Services from '../components/Services'
 import Teams from '../components/Team'
 import Portofolio from '../components/Portofolio'
+import Product from '../components/Package'
 
 export default function Home() {
   return (
     <section>
       <Navbar />
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
       <Banner />
       <Profile />
       <Services />
-      <Teams />
       <Portofolio />
+      <Teams />
+      <Product />
       <Footer />
-      </div>
     </section>
   )
 }

@@ -1,8 +1,12 @@
 import React from 'react'
-import ProfileImg from './img/about/1.jpg'; // with import
+import ProfileImg from './img/about/craft.PNG'; // with import
+import { Icon, InlineIcon } from '@iconify/react';
+import iosSpeedometerOutline from '@iconify-icons/ion/ios-speedometer-outline';
+import iosBookmarksOutline from '@iconify-icons/ion/ios-bookmarks-outline';
+import iosEyeOutline from '@iconify-icons/ion/ios-eye-outline';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faCheck, faTachometerAlt } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 
@@ -10,59 +14,66 @@ import { Link } from 'react-router-dom';
 export default function Profile() {
   return (
     // <!-- Start About area -->
-    <div id="profile" class="about-area area-padding" style={{ padding: "70px 0px 80px"}}>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>About Alpha Corporate</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          {/* <!-- single-well start--> */}
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-left">
-              <div class="single-well">
-                <Link href="#">
-                  <img src={ProfileImg} alt="..." style={{ objectFit: "cover", width: "100%" }} />
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/* <!-- single-well end--> */}
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-middle">
-              <div class="single-well">
-                <Link href="#" style={{ color: 'black' }}>
-                  <h4 class="sec-head">Project Company by Alpha</h4>
-                </Link>
+    <div>
+      <section id="about" className="area-padding">
+        <div class="container">
+
+          <header class="section-header">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </header>
+
+          <div class="row about-cols">
+
+            <div class="col-md-4 wow fadeInUp">
+              <div class="about-col">
+                <div class="img">
+                  <img src={ProfileImg} alt="" class="img-fluid" />
+                  <div class="icon">
+                    <Icon icon={iosSpeedometerOutline} style={{ width: 55, height: 40 }} />
+                  </div>
+                </div>
+                <h2 class="title"><a href="#">Our Mission</a></h2>
                 <p>
-                  Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
+                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <ul>
-                  <li>
-                    <FontAwesomeIcon icon={faCheck} style={{ color: "#bbbbbb" }} /> Interior design Package
-                  </li>
-                  <li>
-                    <FontAwesomeIcon icon={faCheck} style={{ color: "#bbbbbb" }} /> Building House
-                  </li>
-                  <li>
-                    <FontAwesomeIcon icon={faCheck} style={{ color: "#bbbbbb" }} /> Reparing of Residentail Roof
-                  </li>
-                  <li>
-                    <FontAwesomeIcon icon={faCheck} style={{ color: "#bbbbbb" }} /> Renovaion of Commercial Office
-                  </li>
-                  <li>
-                    <FontAwesomeIcon icon={faCheck} style={{ color: "#bbbbbb" }} /> Make Quality Products
-                  </li>
-                </ul>
               </div>
             </div>
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="about-col">
+                <div class="img">
+                  <img src={ProfileImg} alt="" class="img-fluid" />
+                  <div class="icon">
+                    <Icon icon={iosBookmarksOutline} style={{ width: 55, height: 40 }} />
+                  </div>
+                </div>
+                <h2 class="title"><a href="#">Our Plan</a></h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="about-col">
+                <div class="img">
+                  <img src={ProfileImg} alt="" class="img-fluid" />
+                  <div class="icon">
+                    <Icon icon={iosEyeOutline} style={{ width: 55, height: 40 }} />
+                  </div>
+                </div>
+                <h2 class="title"><a href="#">Our Vision</a></h2>
+                <p>
+                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                </p>
+              </div>
+            </div>
+
           </div>
-          {/* <!-- End col--> */}
+
         </div>
-      </div>
+      </section>
     </div>
   )
 }

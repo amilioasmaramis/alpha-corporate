@@ -1,11 +1,17 @@
 import React from 'react'
 
-import Portofolio1 from './img/portfolio/1.jpg'; // with import
-import Portofolio2 from './img/portfolio/2.jpg'; // with import
-import Portofolio3 from './img/portfolio/3.jpg'; // with import
-import Portofolio4 from './img/portfolio/4.jpg'; // with import
-import Portofolio5 from './img/portfolio/5.jpg'; // with import
-import Portofolio6 from './img/portfolio/6.jpg'; // with import
+import Portofolio1 from './img/portfolio/Alpha-6358.JPG'; // with import
+import Portofolio2 from './img/portfolio/Alpha-8632.JPG'; // with import
+import Portofolio3 from './img/portfolio/Alpha-5270.JPG'; // with import
+import Portofolio4 from './img/portfolio/prolog.png'; // with import
+import ilustrasi2 from './img/portfolio/ilustrasi 3.png'; // with import
+import ilustrasi1 from './img/portfolio/ilustrasi 1.png'; // with import
+import engagement from './img/portfolio/engagement.png'; // with import
+import prawedding from './img/portfolio/prawedding.png'; // with import
+import prawedding2 from './img/portfolio/prawedding2.png'; // with import
+import wedding1 from './img/portfolio/wedding1.png'; // with import
+import wedding2 from './img/portfolio/wedding2.png'; // with import
+
 
 
 export default function Portofolio() {
@@ -63,6 +69,7 @@ export default function Portofolio() {
                   </div>
                 </div>
                 {/* <!-- single-awesome-project end -->
+
                 <!-- single-awesome-project start --> */}
                 <div class="col-md-4 col-sm-4 col-xs-12 photo">
                   <div class="single-awesome-project">
@@ -80,6 +87,7 @@ export default function Portofolio() {
                   </div>
                 </div>
                 {/* <!-- single-awesome-project end -->
+
                 <!-- single-awesome-project start --> */}
                 <div class="col-md-4 col-sm-4 col-xs-12 design">
                   <div class="single-awesome-project">
@@ -97,11 +105,12 @@ export default function Portofolio() {
                   </div>
                 </div>
                 {/* <!-- single-awesome-project end -->
+
                 <!-- single-awesome-project start --> */}
                 <div class="col-md-4 col-sm-4 col-xs-12 photo development">
                   <div class="single-awesome-project">
                     <div class="awesome-img">
-                      <a href="#"><img src={Portofolio4} alt="" /></a>
+                      <a href="#"><img src={Portofolio3} alt="" /></a>
                       <div class="add-actions text-center">
                         <div class="project-dec">
                           <a class="venobox" data-gall="myGallery" href="img/portfolio/4.jpg">
@@ -114,11 +123,12 @@ export default function Portofolio() {
                   </div>
                 </div>
                 {/* <!-- single-awesome-project end -->
+
                 <!-- single-awesome-project start --> */}
                 <div class="col-md-4 col-sm-4 col-xs-12 development">
                   <div class="single-awesome-project">
                     <div class="awesome-img">
-                      <a href="#"><img src={Portofolio5} alt="" /></a>
+                      <a href="#"><img src={ilustrasi1} alt="" /></a>
                       <div class="add-actions text-center text-center">
                         <div class="project-dec">
                           <a class="venobox" data-gall="myGallery" href="img/portfolio/5.jpg">
@@ -131,11 +141,12 @@ export default function Portofolio() {
                   </div>
                 </div>
                 {/* <!-- single-awesome-project end -->
+
                 <!-- single-awesome-project start --> */}
                 <div class="col-md-4 col-sm-4 col-xs-12 design photo">
                   <div class="single-awesome-project">
                     <div class="awesome-img">
-                      <a href="#"><img src={Portofolio6} alt="" /></a>
+                      <a href="#"><img src={ilustrasi2} alt="" /></a>
                       <div class="add-actions text-center">
                         <div class="project-dec">
                           <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
@@ -147,10 +158,83 @@ export default function Portofolio() {
                     </div>
                   </div>
                 </div>
+                {/* <!-- single-awesome-project end --> */}
+
+                {/* <!-- single-awesome-project start --> */}
+                <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <a href="#"><img src={engagement} alt="" /></a>
+                      <div class="add-actions text-center">
+                        <div class="project-dec">
+                          <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
+                            <h4>Night Hill</h4>
+                            <span>Photoshop</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- single-awesome-project end --> */}
+
+                {/* <!-- single-awesome-project start --> */}
+                <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <a href="#"><img src={prawedding2} alt="" /></a>
+                      <div class="add-actions text-center">
+                        <div class="project-dec">
+                          <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
+                            <h4>Night Hill</h4>
+                            <span>Photoshop</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- single-awesome-project end --> */}
+
+                {/* <!-- single-awesome-project start --> */}
+                <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <a href="#"><img src={wedding1} alt="" /></a>
+                      <div class="add-actions text-center">
+                        <div class="project-dec">
+                          <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
+                            <h4>Night Hill</h4>
+                            <span>Photoshop</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- single-awesome-project end --> */}
+
+                {/* <!-- single-awesome-project start --> */}
+                <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <a href="#"><img src={wedding2} alt="" /></a>
+                      <div class="add-actions text-center">
+                        <div class="project-dec">
+                          <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
+                            <h4>Night Hill</h4>
+                            <span>Photoshop</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- single-awesome-project end --> */}
+                
               </div>
             </div>
-            {/* <!-- single-awesome-project end --> */}
-            {/* </div> */}
+
           </div>
         </div>
       </div>
