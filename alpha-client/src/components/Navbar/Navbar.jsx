@@ -1,17 +1,21 @@
 import React from 'react'
 // import './navbar.css'
 import { Link } from 'react-router-dom'
+import LogoAlpha from './LOGO UTAMA.png'
 
 export default function Navbar() {
   return (
     <header id="header">
       <div class="container-fluid">
 
-        <div id="logo" class="pull-left">
-          <h1><a href="#intro" class="scrollto">Alpha</a></h1>
-          {/* <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>--> */}
-        </div>
+      <div id="logo" class="pull-left">
+        <h1>
+          <a href="#intro">
+            <img className="logo-alpha" src={LogoAlpha} style={{ width: 50, height: 50 }} alt="" title="" />
+          </a>
+        </h1>
+        {/* <!-- Uncomment below if you prefer to use an image logo --> */}
+      </div>
 
         <nav id="nav-menu-container">
           <ul class="nav-menu">

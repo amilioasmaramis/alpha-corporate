@@ -4,6 +4,8 @@ import React from 'react'
 // import Image3 from './img/intro-carousel/3.jpg'
 // import Image4 from './img/intro-carousel/4.jpg'
 // import Image5 from './img/intro-carousel/5.jpg'
+import Banner1 from './Layar utama.png'
+
 
 
 export default function Banner() {
@@ -17,16 +19,17 @@ export default function Banner() {
           <div class="carousel-inner" role="listbox">
 
             <div class="carousel-item active">
-              <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt="" /></div>
+              <div class="carousel-background"><img src={Banner1} alt="" /></div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2>We are professional</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                  <h2>Make Your</h2>
+                  <h2>Imaginations</h2>
+                  <h2>Come True</h2>
+                  <a href="#contact" class="btn-get-started scrollto">Contact us</a>
                 </div>
               </div>
             </div>
-
+{/* 
             <div class="carousel-item">
               <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt="" /></div>
               <div class="carousel-container">
@@ -69,7 +72,7 @@ export default function Banner() {
                   <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
 

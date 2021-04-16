@@ -17,9 +17,10 @@ export default function Profile() {
       <div class="container">
 
         <header class="section-header">
-          <h3>About Us</h3>
+          <h3>About Alpha Company</h3>
           <p>
-            Kami adalah anak perusahaan dari Alpha Creative Development Company yang menawarkanlayanan kreatif untuk dapat membantu membranding produk yang anda miliki mulai dari keperluan Desain Grafis seperti pembuatan logo, ilustrasi, proposal kreatif, konten media sosial, hingga kebutuhan foto dan video untuk wedding
+            Kami adalah perusahaan penyedia layanan kreatif berupa barang dan jasa yang
+            dapat diaplikasikan pada berbagai macam media
           </p>
         </header>
 
@@ -33,7 +34,11 @@ export default function Profile() {
               </div>
               <h2 class="title"><a href="#">Our Mission</a></h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                1.	Menyediakan layanan kreatif bagi konsumen yaitu pada bidang design, marketing & branding, wedding organizer, construction dan juga IT
+              </p>
+              <p>
+                2.	Memberikan pelayanan terbaik bagi konsumen serta karyawan untuk dapat menumbuhkan semangat simbiosis mutualisme baik 
+                didalam internal maupun eksternal perusahaan
               </p>
             </div>
           </div>
@@ -46,8 +51,12 @@ export default function Profile() {
               </div>
               <h2 class="title"><a href="#">Our Plan</a></h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Sebuah Creative Company yang menyediakan layanan kreatif berupa barang dan jasa yang bisa diaplikasikan pada berbagai macam media dengan 
+                menjunjung tinggi nilai kejujuran dan profesionalitas yang berlandasakan pada azas kekeluargaan creative : memiliki daya cipta (kecerdasan & imajinasi)
               </p>
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
           </div>
 
@@ -59,7 +68,11 @@ export default function Profile() {
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                1.	Menjadi sebuah creative company yang menyediakan layanan kreatif berupa penyediaan barang dan jasa yang dapat diterapkan 
+                pada segala aspek kehidupan baik secara real maupun virtual. 
+              </p>
+              <p>
+                2.	Menjadi sebuah creative company yang menjunjung tinggi nilai kejujuran dan profesionalitas yang berlandaskan azas kekeluargaan.
               </p>
             </div>
           </div>

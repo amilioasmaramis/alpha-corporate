@@ -7,7 +7,8 @@ export default function ContactUs() {
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h5 className="d-flex justify-content-center">Need a hand ? Or a high five?</h5>
+          <h5 className="d-flex justify-content-center">Here's how to reach us</h5>
         </div>
 
         <div class="row contact-info">
@@ -16,7 +17,7 @@ export default function ContactUs() {
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>Jl. Werkudoro No.132, Slerok, Kec. Tegal Tim., Kota Tegal, Jawa Tengah 52124</address>
             </div>
           </div>
 
@@ -32,7 +33,7 @@ export default function ContactUs() {
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@example.com">alpha-creative@alpha.id</a></p>
             </div>
           </div>
 
