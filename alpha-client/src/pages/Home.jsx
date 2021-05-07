@@ -1,25 +1,25 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
-import Banner from '../components/Banner/Banner'
-import Profile from '../components/Profile/Profile'
-import Services from '../components/Services/Services'
-import Portofolio from '../components/Portofolio/Portofolio'
-import Product from '../components/Package'
-import ContactUs from '../components/ContactUs/ContactUs'
-import Footer from '../components/Footer/Footer'
+
+import Navbar from '../components/Navbar'
+import Banner from '../components/Banner'
+import AboutUs from '../components/AboutUs'
+import Services from '../components/Services'
+import Portofolio from '../components/Portofolio'
+import Clients from '../components/Clients'
+import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <section>
+    <div>
       <Navbar />
       <Banner />
-      <Profile />
+      <AboutUs />
       <Services />
       <Portofolio />
-      {/* <Teams /> */}
-      {/* <Product /> */}
+      <Clients />
       <ContactUs />
       <Footer />
-    </section>
+    </div>
   )
 }
