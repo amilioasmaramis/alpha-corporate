@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+// import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router-dom'
 
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
@@ -10,6 +12,8 @@ import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
 
 export default function Home() {
+  const [data, setData] = useState()
+  // const dispatch = useDispatch()
   return (
     <div>
       <Navbar />

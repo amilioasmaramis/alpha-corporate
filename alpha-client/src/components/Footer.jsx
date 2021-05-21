@@ -10,26 +10,27 @@ export default function Footer() {
               <div class="footer-content">
                 <div class="footer-head">
                   <div class="footer-logo">
-                    <h2><span>Alpha</span>Creative</h2>
+                    <h2>Alpha Creative</h2>
                   </div>
-
                   <p>
-                    Sebuah Creative Company yang menyediakan layanan kreatif berupa barang 
-                    dan jasa yang dapat diaplikasikan pada berbagai macam media.
+                    &copy; Copyright: 2021 <strong>Alpha Creative Company</strong>
+                  </p>
+                  <p>
+                    All Rights Reserved
                   </p>
                   <div class="footer-icons">
                     <ul>
                       <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/companyby.alpha/" target="_blank"><i class="fa fa-facebook"></i></a>
                       </li>
                       <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/companyby.alpha/" target="_blank"><i class="fa fa-twitter"></i></a>
                       </li>
                       <li>
-                        <a href="#"><i class="fa fa-google"></i></a>
+                        <a href="https://www.instagram.com/companyby.alpha/" target="_blank"><i class="fa fa-google"></i></a>
                       </li>
                       <li>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="https://www.instagram.com/companyby.alpha/" target="_blank"><i class="fa fa-instagram"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -41,13 +42,9 @@ export default function Footer() {
               <div class="footer-content">
                 <div class="footer-head">
                   <h4>Information</h4>
-                  <p>
-                    Schedule on Creative Company
-                  </p>
                   <div class="footer-contacts">
                     <p><span>Tel:</span> +62 852 2767 3366</p>
-                    <p><span>Email:</span> alpha-creative@alpha.id</p>
-                    <p><span>Working Hours:</span> 09.00 - 15.00 </p>
+                    <p><span>Email: </span> office@alphacreative.com</p>
                   </div>
                 </div>
               </div>
@@ -58,12 +55,12 @@ export default function Footer() {
                 <div class="footer-head">
                   <h4>Instagram</h4>
                   <div class="flicker-img">
-                    <a href="#"><img src="img/portfolio/Peraduan (1).JPG" alt=""/></a>
-                    <a href="#"><img src="img/portfolio/Peraduan (2).JPG" alt=""/></a>
-                    <a href="#"><img src="img/portfolio/Njajan (1).JPG" alt=""/></a>
-                    <a href="#"><img src="img/portfolio/Njajan (2).JPG" alt=""/></a>
-                    <a href="#"><img src="img/portfolio/Peraduan (3).JPG" alt=""/></a>
-                    <a href="#"><img src="img/portfolio/Njajan (3).JPG" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Peraduan (1).jpg" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Peraduan (2).jpg" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Njajan (1).jpg" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Njajan (2).jpg" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Peraduan (3).jpg" alt=""/></a>
+                    <a href="#"><img src="img/portfolio/Njajan (3).jpg" alt=""/></a>
                   </div>
                 </div>
               </div>

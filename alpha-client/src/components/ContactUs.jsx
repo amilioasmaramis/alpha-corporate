@@ -7,8 +7,6 @@ export default function ContactUs() {
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <h5 className="d-flex justify-content-center">Need a hand ? Or a high five?</h5>
-          <h5 className="d-flex justify-content-center">Here's how to reach us</h5>
         </div>
 
         <div class="row contact-info">
@@ -33,7 +31,7 @@ export default function ContactUs() {
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">alpha-creative@alpha.id</a></p>
+              <p><a href="mailto:info@example.com">office@alphacreative.com</a></p>
             </div>
           </div>
 
