@@ -22,19 +22,19 @@ export default function AdminStudo() {
                 <div class="job-items">
                   <div class="company-img company-img-details">
                     <a href="#">
-                      <img src="assets/img/icon/job-list1.png" alt="" />
+                      <img src="img/logo/videographer.jpg" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
                     <a href="#">
-                      <h4>Admin Studio</h4>
+                      <h4>Videographer</h4>
                     </a>
                     <ul>
                       <li>Creative Agency</li>
                       <li>
-                        <i class="fas fa-map-marker-alt"></i>Athens, Greece
+                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
                       </li>
-                      <li>$3500 - $4000</li>
+                      {/* <li>$3500 - $4000</li> */}
                     </ul>
                   </div>
                 </div>
@@ -44,43 +44,54 @@ export default function AdminStudo() {
                 <div class="post-details1 mb-50">
                   {/* <!-- Small Section Tittle --> */}
                   <div class="small-section-tittle">
-                    <h4>Job Description</h4>
+                    <h4>Deksripsi Job</h4>
                   </div>
-                  <p>
-                    It is a long established fact that a reader will beff
-                    distracted by vbthe creadable content of a page when looking
-                    at its layout. The pointf of using Lorem Ipsum is that it
-                    has ahf mcore or-lgess normal distribution of letters, as
-                    opposed to using, Content here content here making it look
-                    like readable.
+                  <p align="justify">
+                    Ternyata film dan video keren yang kamu tonton nggak hanya
+                    tercipta karena kelihaian pembuat konten aja tetapi juga ada
+                    andil seorang penyunting video alias video editor. Profesi
+                    ini sangat berperan selama proses memilah dan memilih
+                    potongan rekaman, merangkai, menyusun ulang, sampai
+                    memanipulasi rangkaian video. Jadi, video yang ditampilkan
+                    kepada publik benar-benar layak karena merupakan rangkaian
+                    cerita yang utuh, sesuai dengan skenario. Tak heran kalau
+                    editor dituntut untuk menerjemahkan juga memahami maksud
+                    sutradara atau pembuat konten.
                   </p>
                 </div>
                 <div class="post-details2  mb-50">
                   {/* <!-- Small Section Tittle --> */}
                   <div class="small-section-tittle">
-                    <h4>Required Knowledge, Skills, and Abilities</h4>
+                    <h4>Ketentuan Khusus:</h4>
                   </div>
                   <ul>
-                    <li>System Software Development</li>
                     <li>
-                      Mobile Applicationin iOS/Android/Tizen or other platform
+                      Mengupload karya berupa video berdurasi maksimal 1 menit
+                      dengan kualitas gambar minimal full hd ke instagram.{" "}
                     </li>
-                    <li>Research and code , libraries, APIs and frameworks</li>
-                    <li>Strong knowledge on software development life cycle</li>
-                    <li>Strong problem solving and debugging skills</li>
-                  </ul>
-                </div>
-                <div class="post-details2  mb-50">
-                  {/* <!-- Small Section Tittle --> */}
-                  <div class="small-section-tittle">
-                    <h4>Education + Experience</h4>
-                  </div>
-                  <ul>
-                    <li>3 or more years of professional design experience</li>
-                    <li>Direct response email experience</li>
-                    <li>Ecommerce website design experience</li>
-                    <li>Familiarity with mobile and web apps preferred</li>
-                    <li>Experience using Invision a plus</li>
+                    <li>
+                      Ceritakan tentang karya tersebut dan alasan mengapa kamu
+                      ingin bergabung bersama alpha.
+                    </li>
+                    <li>
+                      Sertakan logo alpha company pada karya tersebut, gunakan
+                      hashtag #katanyakreatif dan tag @companyby.alpha pada
+                      kolom caption.
+                    </li>
+                    <br />
+                    <div class="company-img company-img-details">
+                      <a
+                        href="img/logo/LOGO ALPHA.png"
+                        download="logo-alpha.jpg"
+                        title="alphaCreative"
+                      >
+                        <img src="img/logo/LOGO ALPHA.png" alt="" width="25%" />
+                      </a>
+                    </div>
+                    <br />
+                    <li>
+                      Akun instagram tidak diperkenankan untuk di private.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -94,15 +105,15 @@ export default function AdminStudo() {
                 </div>
                 <ul>
                   <li>
-                    Posted date : <span>12 Aug 2019</span>
+                    Posted date : <span>11 Dec 2021</span>
                   </li>
                   <li>
-                    Location : <span>New York</span>
+                    Location : <span>Tegal, Indonesia</span>
                   </li>
                   <li>
-                    Vacancy : <span>02</span>
+                    Vacancy : <span>01</span>
                   </li>
-                  <li>
+                  {/* <li>
                     Job nature : <span>Full time</span>
                   </li>
                   <li>
@@ -110,33 +121,42 @@ export default function AdminStudo() {
                   </li>
                   <li>
                     Application date : <span>12 Sep 2020</span>
-                  </li>
+                  </li> */}
                 </ul>
-                <div class="apply-btn2">
+                {/* <div class="apply-btn2">
                   <a href="#" class="btn">
                     Apply Now
                   </a>
-                </div>
+                </div> */}
               </div>
               <div class="post-details4  mb-50">
                 {/* <!-- Small Section Tittle --> */}
                 <div class="small-section-tittle">
                   <h4>Company Information</h4>
                 </div>
-                <span>Colorlib</span>
+                <span>Alpha Creative Company</span>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  Sebuah Creative Company yang menyediakan layanan kreatif
+                  berupa barang dan jasa yang dapat diaplikasikan pada berbagai
+                  macam media.
                 </p>
                 <ul>
                   <li>
-                    Name: <span>Colorlib </span>
+                    Name: <span>Alpha Creative </span>
                   </li>
                   <li>
-                    Web : <span> colorlib.com</span>
+                    Web :{" "}
+                    <span>
+                      <a
+                        href="https://alpha-creative-v2.web.app/"
+                        style={{ color: "blue" }}
+                      >
+                        Alpha Creative
+                      </a>
+                    </span>
                   </li>
                   <li>
-                    Email: <span>carrier.colorlib@gmail.com</span>
+                    Email: <span>office@alphacreativedev.com</span>
                   </li>
                 </ul>
               </div>

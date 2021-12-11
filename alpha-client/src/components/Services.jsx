@@ -56,7 +56,7 @@ export default function Services() {
               <h4 class="title"><a href="">Alpha House</a></h4>
               <p class="description">
                 Merupakan sebuah layanan photo studio yang menyediakan jasa pemotretan 
-                dengan beberapa konsep kreatif untuk memunhi kebutuhan foto anda seperti 
+                dengan beberapa konsep kreatif untuk memenuhi kebutuhan foto anda seperti 
                 foto produk hingga foto keluarga.
               </p>
             </div>

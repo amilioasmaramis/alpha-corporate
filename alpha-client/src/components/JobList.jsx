@@ -21,92 +21,8 @@ export default function JobList() {
               <div class="single-job-items mb-30">
                 <div class="job-items">
                   <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="assets/img/icon/job-list1.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html">
-                      <h4>Admin Studio</h4>
-                    </a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
-                      </li>
-                      <li>Negotiable</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div>
-                <div class="items-link f-right">
-                  <Link to="/admin-studio">Detail</Link>
-                </div>
-              </div>
-              {/* <!-- single-job-content --> */}
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="assets/img/icon/job-list2.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html">
-                      <h4>Video editor</h4>
-                    </a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
-                      </li>
-                      <li>Negotiable</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div>
-                <div class="items-link f-right">
-                  <Link to="/video-editor">Detail</Link>
-                </div>
-              </div>
-              {/* <!-- single-job-content --> */}
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="assets/img/icon/job-list3.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="job-tittle">
-                    <a href="job_details.html">
-                      <h4>Photographer</h4>
-                    </a>
-                    <ul>
-                      <li>Creative Agency</li>
-                      <li>
-                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
-                      </li>
-                      <li>Negotiable</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div>
-                <div class="items-link f-right">
-                  <Link to="/photographer">Detail</Link>
-                </div>
-              </div>
-              {/* <!-- single-job-content --> */}
-              <div class="single-job-items mb-30">
-                <div class="job-items">
-                  <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="assets/img/icon/job-list4.png" alt="" />
+                    <a href="/admin-studio">
+                      <img src="img/logo/videographer.jpg" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -122,24 +38,24 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                <div class="items-link f-right">
+                {/* <div class="items-link f-right">
                   <a href="job_details.html">Join Now</a>
-                </div>
+                </div> */}
                 <div class="items-link f-right">
-                  <Link to="/videographer">Detail</Link>
+                  <Link to="/admin-studio">Join Now</Link>
                 </div>
               </div>
-              {/* Photo Editor */}
+              {/* <!-- single-job-content --> */}
               <div class="single-job-items mb-30">
                 <div class="job-items">
                   <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="assets/img/icon/job-list4.png" alt="" />
+                    <a href="/video-editor">
+                      <img src="img/logo/photografer.jpg" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
                     <a href="job_details.html">
-                      <h4>Photo editor</h4>
+                      <h4>Photographer</h4>
                     </a>
                     <ul>
                       <li>Creative Agency</li>
@@ -150,11 +66,67 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                <div class="items-link">
+                {/* <div class="items-link f-right">
                   <a href="job_details.html">Join Now</a>
+                </div> */}
+                <div class="items-link f-right">
+                  <Link to="/video-editor">Join Now</Link>
                 </div>
-                <div class="items-link">
-                  <Link to="/photo-editor">Detail</Link>
+              </div>
+              {/* <!-- single-job-content --> */}
+              <div class="single-job-items mb-30">
+                <div class="job-items">
+                  <div class="company-img">
+                    <a href="/photographer">
+                      <img src="img/logo/graphic.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="job-tittle">
+                    <a href="job_details.html">
+                      <h4>Graphic Designer</h4>
+                    </a>
+                    <ul>
+                      <li>Creative Agency</li>
+                      <li>
+                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
+                      </li>
+                      <li>Negotiable</li>
+                    </ul>
+                  </div>
+                </div>
+                {/* <div class="items-link f-right">
+                  <a href="job_details.html">Join Now</a>
+                </div> */}
+                <div class="items-link f-right">
+                  <Link to="/photographer">Join Now</Link>
+                </div>
+              </div>
+              {/* <!-- single-job-content --> */}
+              <div class="single-job-items mb-30">
+                <div class="job-items">
+                  <div class="company-img">
+                    <a href="job_details.html">
+                      <img src="img/logo/logo-alpha-resize.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="job-tittle">
+                    <a href="job_details.html">
+                      <h4>Ilustrator</h4>
+                    </a>
+                    <ul>
+                      <li>Creative Agency</li>
+                      <li>
+                        <i class="fas fa-map-marker-alt"></i>Tegal, Indonesia
+                      </li>
+                      <li>Negotiable</li>
+                    </ul>
+                  </div>
+                </div>
+                {/* <div class="items-link f-right">
+                  <a href="job_details.html">Join Now</a>
+                </div> */}
+                <div class="items-link f-right">
+                  <Link to="/videographer">Join Now</Link>
                 </div>
               </div>
             </div>
