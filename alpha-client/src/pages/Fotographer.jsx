@@ -21,8 +21,8 @@ export default function Fotographer() {
               <div class="single-job-items mb-50">
                 <div class="job-items">
                   <div class="company-img company-img-details">
-                    <a href="#">
-                      <img src="img/logo/graphic.jpg" alt="" />
+                    <a href="/photographer">
+                      <img src="img/logo/GD.png" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -118,11 +118,11 @@ export default function Fotographer() {
                     Application date : <span>12 Sep 2020</span>
                   </li> */}
                 </ul>
-                {/* <div class="apply-btn2">
-                  <a href="#" class="btn">
-                    Apply Now
+                <div class="apply-btn2">
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYgC6IqAq-zNhCodIOb9pdOW4jLDXjyWOdvIrqQGqoVT2j8Q/viewform" class="btn">
+                  Isi Data Dirimu Disini!
                   </a>
-                </div> */}
+                </div>
               </div>
               <div class="post-details4  mb-50">
                 {/* <!-- Small Section Tittle --> */}

@@ -22,7 +22,7 @@ export default function JobList() {
                 <div class="job-items">
                   <div class="company-img">
                     <a href="/admin-studio">
-                      <img src="img/logo/videographer.jpg" alt="" />
+                      <img src="img/logo/VG.png" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -38,11 +38,11 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                {/* <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div> */}
                 <div class="items-link f-right">
-                  <Link to="/admin-studio">Join Now</Link>
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYgC6IqAq-zNhCodIOb9pdOW4jLDXjyWOdvIrqQGqoVT2j8Q/viewform">Join Now</a>
+                </div>
+                <div class="items-link f-right">
+                  <Link to="/admin-studio">Detail</Link>
                 </div>
               </div>
               {/* <!-- single-job-content --> */}
@@ -50,7 +50,7 @@ export default function JobList() {
                 <div class="job-items">
                   <div class="company-img">
                     <a href="/video-editor">
-                      <img src="img/logo/photografer.jpg" alt="" />
+                      <img src="img/logo/FG.png" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -66,11 +66,11 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                {/* <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div> */}
                 <div class="items-link f-right">
-                  <Link to="/video-editor">Join Now</Link>
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYgC6IqAq-zNhCodIOb9pdOW4jLDXjyWOdvIrqQGqoVT2j8Q/viewform">Join Now</a>
+                </div>
+                <div class="items-link f-right">
+                  <Link to="/video-editor">Detail</Link>
                 </div>
               </div>
               {/* <!-- single-job-content --> */}
@@ -78,7 +78,7 @@ export default function JobList() {
                 <div class="job-items">
                   <div class="company-img">
                     <a href="/photographer">
-                      <img src="img/logo/graphic.jpg" alt="" />
+                      <img src="img/logo/GD.png" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -94,19 +94,19 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                {/* <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div> */}
                 <div class="items-link f-right">
-                  <Link to="/photographer">Join Now</Link>
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYgC6IqAq-zNhCodIOb9pdOW4jLDXjyWOdvIrqQGqoVT2j8Q/viewform">Join Now</a>
+                </div>
+                <div class="items-link f-right">
+                  <Link to="/photographer">Detail</Link>
                 </div>
               </div>
               {/* <!-- single-job-content --> */}
               <div class="single-job-items mb-30">
                 <div class="job-items">
                   <div class="company-img">
-                    <a href="job_details.html">
-                      <img src="img/logo/logo-alpha-resize.png" alt="" />
+                    <a href="/videographer">
+                      <img src="img/logo/ILS.png" alt="" />
                     </a>
                   </div>
                   <div class="job-tittle">
@@ -122,11 +122,11 @@ export default function JobList() {
                     </ul>
                   </div>
                 </div>
-                {/* <div class="items-link f-right">
-                  <a href="job_details.html">Join Now</a>
-                </div> */}
                 <div class="items-link f-right">
-                  <Link to="/videographer">Join Now</Link>
+                  <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYgC6IqAq-zNhCodIOb9pdOW4jLDXjyWOdvIrqQGqoVT2j8Q/viewform">Join Now</a>
+                </div>
+                <div class="items-link f-right">
+                  <Link to="/videographer">Detail</Link>
                 </div>
               </div>
             </div>
